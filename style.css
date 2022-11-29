@@ -1,0 +1,56 @@
+.head {
+  width: auto;
+  height: auto;
+  background-color: blue;
+  border-color: black;
+  border-style: ridge;
+}
+
+.sub {
+  display: flex;
+  flex-direction: row;
+}
+#sub1 {
+  margin: auto;
+  height: auto;
+  width: auto;
+  background-color: blue;
+  border-color: black;
+  border-style: ridge;
+}
+#sub2 {
+  margin: auto;
+  height: auto;
+  width: auto;
+  background-color: blue;
+  border-color: black;
+  border-style: ridge;
+}
+#number1,
+#number2,
+#number3,
+#number4,
+#number5,
+#number6,
+#number7 {
+  color: black;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+#left {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+#right {
+  margin: auto;
+}
+.bottom {
+  display: flex;
+  flex-direction: row;
+}

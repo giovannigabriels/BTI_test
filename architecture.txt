@@ -1,0 +1,6 @@
+-.MONOLITHIC
+-.MICROSERVICES
+
+
+architecture yang terbaik yaitu microservices.
+karena akan memudahkan dalam maintenance sebuah aplikasi, apalagi kalau aplikasinya sudah besar, sehingga jika ada anggota baru dalam tim developer, akan sangat memudahkan.

@@ -1,0 +1,19 @@
+CREATE TABLE IF NOT EXISTS "USER"(
+	"id" serial NOT NULL PRIMARY KEY,
+	"name" varchar NOT NULL,
+	"age" integer NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS "ASSET"(
+	"id" serial NOT NULL PRIMARY KEY,
+	"item" varchar NOT NULL,
+	"user_id" integer NOT NULL REFERENCES "USERS"(id)
+);
+
+
+--RESULT 1
+SELECT DISTINCT item FROM "ASSET" a ;
+
+--RESULT 2
+SELECT name,item AS asset FROM "USER" u 
+JOIN "ASSET" a ON a.user_id =u.id ;

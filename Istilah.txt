@@ -1,0 +1,8 @@
+cypress yaitu software untuk mengetes suatu aplikasi yang telah dibikin.
+ORM adalah suatu teknik untuk melakukan kueri dan memanipulasi data pada database tanpa harus secara manual
+
+class merupakan seperti blueprint atau cetakan untuk  menciptakan suatu instant dari  object
+
+function adalah sebuah kode yang dibuat untuk menyelesaikan tugas tertentu.
+
+docker adalah sebuah wadah (container) untuk menampung semua file dari para developer, untuk memudahkan dalam pengembangan aplikasi
