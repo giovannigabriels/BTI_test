@@ -1,5 +1,18 @@
 // NOMOR 1
-
+function tes(n) {
+  for (let i = 1; i < n + 1; i++) {
+    let j = 1;
+    while (j <= n + 3) {
+      console.log(j);
+      if (i == j) {
+        console.log("**");
+        j += 2;
+      }
+      j += 1;
+    }
+    console.log("");
+  }
+}
 // nomor 2
 let array = [10, 7, 5, 8, 11, 9, 1];
 function selisih(arr) {
