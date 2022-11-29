@@ -13,6 +13,7 @@ function tes(n) {
     console.log("");
   }
 }
+tes(5);
 // nomor 2
 let array = [10, 7, 5, 8, 11, 9, 1];
 function selisih(arr) {
